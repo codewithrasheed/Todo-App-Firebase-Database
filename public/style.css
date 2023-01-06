@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+body {
+    background: url(Images/Bg.jpg) center center;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    /* background-blend-mode: darken; */
+    /* background-repeat:   */
+    /* width: 100vw; */
+    /* height: 100vh; */
+    /* width: 100%; */
+    /* height: 100%; */
+}
+
+/* .overlay {
+} */
+
+.head {
+    background-color: rgb(255, 138, 101);
+    padding: 10px;
+}
+
+.h1 {
+    color: white !important;
+    margin-left: 0px !important;
+    font-size: 25px;
+    display: inline;
+    position: relative;
+    bottom: 0px;
+}
+.head img{
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    display: inline;
+}
+
+.box{
+    background-color: white;
+    box-sizing: border-box;
+    box-shadow: rgb(0 0 0 / 16%) 0px 3px 10px, rgb(0 0 0 / 23%) 0px 3px 10px;
+    border-radius: 2px;
+    height: auto;
+    min-height: 500px;
+    width: 450px;
+    margin: 20px;
+    text-align: center;
+    display: inline-block;
+    padding: 20px;
+}
+.box input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid grey;
+    margin-top: 50px;
+    font-size: 15px;
+    width: 80%;
+}
+.box input:focus{
+    border-bottom: 2px solid rgb(255, 138, 101);
+}
+.box button{
+    /* position: relative; */
+    opacity: 1;
+    font-size: 14px;
+    letter-spacing: 0px;
+    font-weight: 500;
+    margin: 0px 10px 0px;
+    user-select: none;
+    color: rgba(0, 0, 0, 0.87);
+    background-color: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: rgb(0 0 0 / 16%) 0px 3px 10px, rgb(0 0 0 / 23%) 0px 3px 10px ;
+    width: auto;
+}
+.edi{
+    background-color: #ff8a65;
+    border: 2px solid #ff8a65;
+    color: #fff;
+    margin-top: 0px;
+}
+.remo{
+    background-color: #ff8a65;
+    border: 2px solid #ff8a65;
+    color: #fff;
+    margin-top: 20px;
+}
+ul li{
+    list-style: none;
+    border-bottom: 2px solid #ff8a65;   
+    text-align: start;
+}

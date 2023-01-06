@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required Meta Tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Required Meta Tags -->
+
+    <!-- Title -->
+    <title>TODO APP WITH Database</title>
+    <!-- Title -->
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- External CSS -->
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="https://vignette.wikia.nocookie.net/gtawiki/images/e/ee/GTAWiki-Todo-Checklist.png/revision/latest?cb=20151027125135" type="image/x-icon">
+    <!-- Favicon -->
+</head>
+
+<body>
+    <!-- Todo Header Start -->
+    <div class="head">
+        <div>
+            <img src="https://vignette.wikia.nocookie.net/gtawiki/images/e/ee/GTAWiki-Todo-Checklist.png/revision/latest?cb=20151027125135"
+            width="45px" alt="">
+            <h1 class="h1">Todo App</h1>
+        </div>
+    </div>
+    <!-- Todo Header End -->
+
+    <!-- Todo Body Start -->
+    <div class="body">
+        
+        <div class="overlay h-100 w-100">
+            <div class="img text-center">
+            <div class="box">
+                <h2 class="fw-bold my-2 fs-4">TODO LIST APP</h2>
+                <div class="">
+                    <input class="input" placeholder="Enter Any Todo?" type="text" id="inp">
+                    <br>
+                    <br>
+                        <button class="btn btn-white" onclick="add()">ADD TODO</button>
+                        <button class="btn btn-white" onclick="deleteAll()">DELETE ALL</button>
+                    </div>
+                    <div class="w-100">
+                        <ul id="main">
+                        </ul>
+                    </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Todo Body End -->
+
+<!-- Bootstrap JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+crossorigin="anonymous"></script>
+<!-- Bootstrap JavaScript -->
+
+<!-- External JavaScript -->
+<script type="module" src="app.js"></script>
+<!-- External JavaScript -->
+</body>
+
+</html>
